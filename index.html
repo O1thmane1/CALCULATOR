@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    <style>
+        body{
+        background-image: url(desktop-2.jpg);
+        background-size: 200vh;
+            }
+    </style>
+</head>
+<body>
+     <form name="formcalc">
+       <h2>  NUMBER 1: <input type="number" name="txtnum1">
+          <br>
+          <br>
+          NUMBER 2: <input type="number" name="txtnum2">
+          <br>
+          <br>
+          RESULT : <input type="number" name="txtres"><br>
+          <input type="button" class="btn btn--primary" value="+" onclick="plus()">
+          <input type="button" class="btn2 btn2--primary" value="-" onclick="minus()">
+          <input type="button" class="btn3 btn3--primary" value="x" onclick="times()">
+          <input type="button" class="btn4 btn4--primary" value="%" onclick="by()">
+         </h2> 
+     </form>
+     <script type="text/javascript">
+     function plus()
+     {
+         var num1, num2, res;
+         num1=Number(document.formcalc.txtnum1.value);
+         num2=Number(document.formcalc.txtnum2.value);
+         res=num1+num2;
+         document.formcalc.txtres.value=res;}
+
+      
+     function minus()       
+     {
+         var num1, num2, res;
+         num1=Number(document.formcalc.txtnum1.value);
+         num2=Number(document.formcalc.txtnum2.value);
+         res=num1-num2;
+         document.formcalc.txtres.value=res;}
+
+     
+     function times()
+     {
+        var num1, num2, res;
+         num1=Number(document.formcalc.txtnum1.value);
+         num2=Number(document.formcalc.txtnum2.value);
+         res=num1*num2;
+         document.formcalc.txtres.value=res;}
+
+     function by()
+     {
+        var num1, num2, res;
+         num1=Number(document.formcalc.txtnum1.value);
+         num2=Number(document.formcalc.txtnum2.value);
+         res=num1/num2;
+         document.formcalc.txtres.value=res;}
+    
+    
+    
+    </script>
+</body>
+
+<address>
+    producted and designed<br>
+    by othmane ouzidane.<br>
+    all rights are reserved.
+</address>
+</html>

@@ -1,0 +1,74 @@
+h2{
+ color: ghostwhite;
+
+}
+address{
+font-size: 0.9rem;
+font-weight: 600;
+color: gold;
+}
+.btn{
+   border-radius: 40px;
+   border: 0;
+   font-weight: 600;
+   font-size: 1.8rem;
+   margin: 1rem 0;
+   padding: 1rem 1rem;
+   white-space: nowrap;
+   cursor: pointer;
+}
+.btn--primary{
+background-color: steelblue;
+color: black;
+}
+.btn--primary:hover{
+    background:blue ;
+}
+.btn2{
+    border-radius: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn2--primary{
+    background-color: tomato;
+}
+.btn2--primary:hover{
+    background:red ;
+}
+.btn3{
+    border-radius: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn3--primary{
+    background-color: chartreuse;
+}
+.btn3--primary:hover{
+    background: springgreen;
+}
+.btn4{
+    border-radius: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn4--primary{
+    background-color: gold;
+}
+.btn4--primary:hover{
+    background: yellow;
+}
